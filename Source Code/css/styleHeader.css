@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.container{
+    position: relative;
+}
+
+.USER{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #6abd45;
+    color: white;
+}
+
+.log-user{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.log , .cart{
+    margin: 0 15px;
+}
+
+#log-in:hover, #register:hover , .cart:hover a{
+    color: red;
+}
+
+.log-user a{
+    color: white;
+}
+
+.user-contact{
+    flex: 1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 50px 0px 20px;
+    align-items: center;
+    background-color: #6abd45;
+    margin-bottom: 50px;
+}
+
+.logo{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.logo .img-logo{
+    width: 90%;
+    height: 90%;
+}
+
+.menu{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.menu > div {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    min-width: 20%;
+}
+
+.menu > div:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.menu > div > li{
+    display: block;
+    height: 100%;
+}
+
+.ti-angle-down{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.menu>div>li>a{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    font-weight: bold;
+    display: block;
+    height: 100%;
+    padding: 29px 0;
+}
+
+.menu .sub-menu{
+    text-align: left;
+    display: none;
+    position: absolute;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px 0 5px 10px;
+    left: 0;
+    top: 80px;
+    z-index: 10;
+    /* margin-top: 20px; */
+}
+.menu .menu-store:hover .sub-menu{
+    display: block;
+    background-color: white;
+}
+
+.sub-menu > li > a {
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.sub-menu > li > a:hover{
+    color: #6abd45;
+}
+
+.others{
+    flex: 1;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.others > li{
+    position: relative;
+    position: absolute;
+    right: 10px;
+
+}
+
+.others > li input {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    line-height: 30px;
+    /* cursor: pointer; */
+    padding-left: 10px;
+}
+
+
+
+.ti-search{
+    position: absolute;
+    color: white;
+    background-color: #6abd45;
+    font-size: 25px;
+    top: 4px;
+    margin-left: 6px;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,149 @@
+.content{
+    padding: 0 0;
+}
+
+.cart-top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-top{
+    height: 2px;
+    width: 70%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+
+.cart-top-item{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+.cart-top-pay{
+    background-color: aqua;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    flex: 25%;
+  }
+  
+  .col-50 {
+    flex: 50%;
+  }
+  
+  .col-75 {
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container-form {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+ .content input[type=text], .content input[type=number_format], .content input[type=email] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  .payment-container>label{
+    margin: 0 0 10px 5px;
+    position: relative;
+  }
+  .payment-container>input{
+    width: 13px;
+    height: 13px;
+  }
+
+  .Cardpayment_form{
+    display: none;
+    margin-top: 20px;    
+    text-align: left;
+  }
+
+  .Cardpayment:checked ~ #Cardpayment_form{display: block;}
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+
+  
+.cart-content-right table{
+    width: 100%;
+}
+
+.cart-content-right table th{
+    padding-bottom: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-content-right table td{
+    font-size: 13px;
+    padding: 12px;
+}
+
+.cart-content-right table tr:nth-child(3) td{
+    border-bottom: 1px solid #ddd;
+}

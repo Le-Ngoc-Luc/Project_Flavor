@@ -1,0 +1,77 @@
+.content{
+    width: 100%;
+    padding: 0 25%;
+}
+
+.form-log-in{
+    border: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.input-log-in {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .log-in-submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .log-in-submit:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container-log-in {
+    padding: 16px;
+  }
+  
+  #register{
+    padding: 16px 16px;
+  }
+
+  #right-form{
+    float: right;
+    padding: 0 16px;
+
+  }
+
+  span.psw {
+    float: right;
+    padding: 0px 16px;
+
+  }
+
+  span.psw a:hover , #register a:hover, #right-form a:hover{
+    color: blue;
+  }
+  

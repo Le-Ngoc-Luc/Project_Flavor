@@ -1,0 +1,67 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .introduce{
+    text-align: center;
+} */
+
+.header-introduce{
+    background-image:url('../Images/logo/Hình-nền-công-nghệ-cho-ppt-scaled.jpg');
+    padding: 60px;
+    color: white;
+    text-align: center;
+}
+
+.title-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.title-content a{
+    color: white;
+    font-size: 25px;
+}
+
+.title-content span{
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.title-content a:hover{
+    color: red;
+}
+
+.content-introduce{
+    margin: 50px 0;
+}
+
+.content-introduce-left , .content-introduce-right{
+    flex: 1;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+.content-introduce-left h3 {
+    font-size: 25px;
+}
+
+.content-introduce-left p{
+    padding-bottom: 20px;
+}
+
+.content-introduce-right p{
+    padding-top: 20px;
+}
+
+.content-introduce p{
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.content-introduce img{
+    width: 100%;
+}

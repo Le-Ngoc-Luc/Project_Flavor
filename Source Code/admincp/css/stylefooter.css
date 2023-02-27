@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    padding: 50px  50px;
+    background-color: aliceblue;
+    margin-top: 80px;
+}
+
+.contact{
+    flex: 1;
+    text-align: center;
+    line-height: 30px;
+}
+
+.channel{
+    flex: 1;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.channel img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}

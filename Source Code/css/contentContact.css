@@ -1,0 +1,120 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-header{
+    background-image:url('../Images/logo/Hình-nền-công-nghệ-cho-ppt-scaled.jpg');
+    padding: 60px;
+    color: white;
+}
+
+.title-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.title-content a{
+    color: white;
+    font-size: 25px;
+}
+
+.title-content span{
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.title-content a:hover{
+    color: red;
+}
+
+.contact-content{
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.map{
+    flex: 1;
+    height: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 700px;
+}
+
+.contact-content-right{
+    flex: 1;
+}
+
+.logo-contact{
+    flex: 1;
+}
+
+.logo-contact img{
+    width: 90%;
+    height: 90%;
+}
+
+.addresscontact{
+    flex: 1;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.addresscontact p{
+    margin: 10px 0;
+}
+
+.title-address{
+    margin: 20px;
+}
+
+.form-contact{
+    width: 100%;
+}
+
+.form-contact table{
+    width: 100%;
+}
+
+.form-contact table input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.form-contact table td{
+    padding: 10px;
+}
+
+.form-contact table textarea{
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    height: 200px;
+}
+
+.form-contact table input[type=submit]{
+    width: 70%;
+    background-color: #6abd45;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-contact table input[type=submit]:hover{
+    opacity: 0.5;
+}
+
+.form-contact table input,.form-contact table textarea{
+    border: 1px solid #ddd;
+}

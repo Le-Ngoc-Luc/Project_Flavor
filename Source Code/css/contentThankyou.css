@@ -1,0 +1,58 @@
+.thanks-you{
+    padding: 50px;
+}
+
+.thanks-you h2{
+    font-size: 30px;
+}
+
+.thanks-you p{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.thanks-you span{
+    text-transform: uppercase;
+}
+
+.thanks-you table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.thanks-you table, tr,td,th{
+    border: 1px solid #ddd;
+}
+
+.thanks-you td, th{
+    height: 35px;
+}
+
+
+.thanks-you .link{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    font-size: 30px;
+}
+
+.thanks-you .link a,.thanks-you .link>button{
+    display: block;
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 30px;
+    background-color: #6abd45;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.thanks-you .link a:hover,.thanks-you .link>button:hover{
+    background-color: #ddd;
+}
